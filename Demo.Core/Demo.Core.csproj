@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Framework\Demo.Framework.EF.csproj" />
+	  <PackageReference Include="Webezi.Abp.Extensions" Version="2.1.9" />
+  </ItemGroup>
+
+</Project>
